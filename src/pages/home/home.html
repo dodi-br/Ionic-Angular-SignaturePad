@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar hideBackButton="true">
+    <ion-title>
+      Signature!
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h4>
+    Signature Application!
+  </h4>
+  <button ion-button full (click)="openSignatureModal()">Open Signature!</button>
+  <div><img [src]="signatureImage" alt="" *ngIf="signatureImage"></div>
+</ion-content>
